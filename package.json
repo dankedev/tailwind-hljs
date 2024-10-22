@@ -1,12 +1,17 @@
 {
   "name": "tailwind-hljs",
-  "version": "2.0.2",
+  "version": "1.0.0",
   "description": "Bake highlight.js themes directly in your Tailwind Css build",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "test": "tests"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -43,6 +48,7 @@
     "postcss": "^8.2.15",
     "prettier": "^2.3.0",
     "sync-fetch": "^0.5.2",
-    "tailwindcss": "^3.0.0"
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.6.3"
   }
 }
