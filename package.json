@@ -1,6 +1,6 @@
 {
   "name": "tailwind-hljs",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Bake highlight.js themes directly in your Tailwind Css build",
   "main": "src/index.js",
   "directories": {
