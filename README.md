@@ -7,11 +7,11 @@ Bake [highlight.js](https://highlightjs.org) themes directly into your [Tailwind
 First, install with NPM or Yarn:
 
 ```bash
-npm install tailwind-highlightjs
+npm install tailwind-hljs
 
 ## or
 
-yarn add tailwind-highlightjs
+yarn add tailwind-hljs
 ```
 
 Then, initialize the plugin:
@@ -26,7 +26,7 @@ module.exports = {
   }],
   theme: {},
   variants: {},
-  plugins: [require('tailwind-highlightjs')],
+  plugins: [require('tailwind-hljs')],
 };
 ```
 
@@ -69,7 +69,7 @@ module.exports = {
       theme: 'night-owl',
     },
   },
-  plugins: [require('tailwind-highlightjs')],
+  plugins: [require('tailwind-hljs')],
 };
 ```
 
@@ -88,7 +88,7 @@ module.exports = {
       theme: 'https://example.com/my-awesome-theme.css',
     },
   },
-  plugins: [require('tailwind-highlightjs')],
+  plugins: [require('tailwind-hljs')],
 };
 ```
 
@@ -143,7 +143,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwind-highlightjs')],
+  plugins: [require('tailwind-hljs')],
 };
 ```
 
@@ -174,7 +174,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwind-highlightjs')],
+  plugins: [require('tailwind-hljs')],
 };
 ```
 
